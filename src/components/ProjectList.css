@@ -7,20 +7,6 @@
     /* flex-flow: column wrap; */
 }
 
-.proj {
-    flex: 1;
-
-    margin: 1vh;
-    padding: 1vh;
-    
-    border: 3px solid #61dafb;
-    border-radius: 25px;
-    background-color: white;
-    
-    list-style: none;
-    font-size: calc(10px + 2vmin);;
-}
-
 @media (max-width: 500px) {
     .flex-grid {
       display: block;
