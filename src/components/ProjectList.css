@@ -1,0 +1,14 @@
+.projectList {
+    
+}
+
+.flex-grid {
+    display: flex;
+    /* flex-flow: column wrap; */
+}
+
+@media (max-width: 500px) {
+    .flex-grid {
+      display: block;
+    }
+  }
