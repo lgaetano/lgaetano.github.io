@@ -1,0 +1,9 @@
+.about {
+    border-top: 2em solid #037171;
+    padding: 1em;
+    
+}
+
+.about p {
+    text-align: justify;
+}

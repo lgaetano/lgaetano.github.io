@@ -1,5 +1,6 @@
 .projectList {
-    
+    border-top: 2em solid #247BA0;
+    padding: 1em;
 }
 
 .flex-grid {
@@ -11,4 +12,8 @@
     .flex-grid {
       display: block;
     }
+  }
+
+  h2 {
+    color: #171738;
   }

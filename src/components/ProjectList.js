@@ -15,6 +15,7 @@ const ProjectList = ({ id, projects }) => {
 
     return (
         <section className='projectList'>
+            <h2>Projects</h2>
             <ul className='flex-grid'>
                 {getProjectList(projects)}
             </ul>
