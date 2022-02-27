@@ -1,4 +1,4 @@
-import './Project.css';
+import './stylesheets/Project.css';
 
 const Project = ({ title, link, repo }) => {
     return ( 

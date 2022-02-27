@@ -1,15 +1,15 @@
 import Project from './Project.js';
-import './ProjectList.css';
+import './stylesheets/ProjectList.css';
 
 const ProjectList = ({ id, projects }) => {
 
     const getProjectList = (projects) => {
         return projects.map((project, index) => {
             return <Project 
-                    key={index} 
-                    title={project.title}
-                    link={project.link}
-                    repo={project.repo}
+                        key={index} 
+                        title={project.title}
+                        link={project.link}
+                        repo={project.repo}
                     />
         });
     };

@@ -1,0 +1,10 @@
+.about h1 {
+    margin: 2%;
+    font-size: 1em;
+}
+
+.about p {
+    margin: 2%;
+    text-align: justify;
+    font-size: .6em;
+}
