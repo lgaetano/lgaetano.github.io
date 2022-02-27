@@ -3,7 +3,7 @@ import './About.css';
 const About = () => {
     return (
         <section className='about'>
-            <h2>About Me</h2>
+            <h1>About Me</h1>
             <p>I'm a former TeamUSA canoeist with 6+ years of patient 
                 care experience as an emergency medical technician on a 911 
                 ambulance who absolutely loves fast-paced problem solving, 

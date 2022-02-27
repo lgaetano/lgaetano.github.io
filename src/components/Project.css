@@ -11,3 +11,7 @@
     list-style: none;
     font-size: calc(10px + 2vmin);
 }
+.btn {
+    border-radius: 25px;
+    /* border: none; */
+}

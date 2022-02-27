@@ -9,13 +9,14 @@ const ProjectList = ({ id, projects }) => {
                     key={index} 
                     title={project.title}
                     link={project.link}
+                    repo={project.repo}
                     />
         });
     };
 
     return (
         <section className='projectList'>
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <ul className='flex-grid'>
                 {getProjectList(projects)}
             </ul>
